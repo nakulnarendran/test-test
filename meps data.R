@@ -37,7 +37,7 @@ aggr_plot15 <- aggr(PH15, col=c('navyblue','red'), numbers=TRUE, sortVars=TRUE, 
 ##view correlations
 cor(PH15[,c(3:5)],use="complete.obs")
 
-##consolidate variables
+##consolidate variables yay
 # create new variable consolidating the variables 
 
 library(data.table)
